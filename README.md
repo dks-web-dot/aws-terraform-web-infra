@@ -1,4 +1,4 @@
-AWS 2-Tier Web Architecture with Terraform
+# AWS 2-Tier Web Architecture with Terraform
 
 AWS上に冗長性とセキュリティを考慮したWebインフラ基盤をTerraformでコード化したリポジトリです。
 手動構築による属人化を排除し、コマンド操作のみで完全なインフラ環境を再現（IaC）できるように設計しています。
@@ -55,20 +55,30 @@ AWS上に冗長性とセキュリティを考慮したWebインフラ基盤をTe
 ### 実行手順
 
 # 1. リポジトリのクローン
+```text
 git clone [https://github.com/dks-web-dot/aws-terraform-web-infra.git](https://github.com/dks-web-dot/aws-terraform-web-infra.git)
 cd aws-terraform-web-infra
+```
 
 # 2. 初期化
+```text
 terraform init
+```
 
 # 3. 構築プランの確認
+```text
 terraform plan
+```
 
 # 4. インフラの構築
+```text
 terraform apply
+```
 
 構築完了後、コンソールに表示される \`alb_dns_name\` のURLにブラウザからアクセスすると、Nginxの画面が表示されます。
 
 ### リソースの破棄
 # 検証終了後のリソース一括削除
+```text
 terraform destroy
+```
