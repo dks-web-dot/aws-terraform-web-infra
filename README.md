@@ -44,6 +44,7 @@ AWS上に冗長性とセキュリティを考慮したWebインフラ基盤をTe
 ├── variables.tf             # 変数の定義
 ├── outputs.tf               # 構築後の出力値（ALB DNS名）
 └── terraform.tfvars.example # 設定値のサンプル
+```
 
 ## 4. デプロイ手順
 
