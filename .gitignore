@@ -1,0 +1,17 @@
+# Terraform実行時に生成される状態ファイル（機密情報を含むため除外）
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+
+# キャッシュ・プラグイン
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# OSやエディタ固有のファイル
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
