@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d9d473ca-c377-4569-95d2-2d96818e737c" /># AWS 2-Tier Web Architecture with Terraform
+AWS 2-Tier Web Architecture with Terraform
 
 AWS上に冗長性とセキュリティを考慮したWebインフラ基盤をTerraformでコード化したリポジトリです。
 手動構築による属人化を排除し、コマンド操作のみで完全なインフラ環境を再現（IaC）できるように設計しています。
